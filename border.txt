@@ -1,0 +1,16 @@
+img=imread('download (2).jpg');
+b=img;
+imshow(img);
+title('rgb img');
+[r c p]size(img);
+x=r/2;
+y=c/c;
+x=round(x);
+for j=y-50:1:y+50
+    a(:,j,2)=0;
+    a(:,j,3)=0
+end
+for i=x-50:1:x+50
+    a(:,j,2)=0
+    a(:,j,3)=;
+end
